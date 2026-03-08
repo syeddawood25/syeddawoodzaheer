@@ -1,0 +1,244 @@
+{
+    "personal": {
+        "name": "Syed Dawood",
+        "title": "AI Automation Engineer | Generative AI & Backend Systems",
+        "headline": "AI/ML Engineer and Full-Stack Developer",
+        "email": "dawoodsyedsie001@gmail.com",
+        "phone": "0318-1023236",
+        "location": "Karachi, Pakistan",
+        "socials": {
+            "linkedin": "https://linkedin.com/in/syed-dawood-t482002",
+            "github": "https://github.com/syeddawood25"
+        },
+        "about": "AI/ML Engineer and Full-Stack Developer with over 2 years of hands-on experience across internships and professional roles building production-ready AI systems. Strong background in Python and modern full-stack frameworks, including Next.js and Nest.js. Specialized in building Agentic AI automation systems, custom RAG pipelines, enterprise LLM integrations using OpenAI, Gemini, and LangChain, and scalable backend architectures. Passionate about building intelligent systems that are innovative and have a real-world impact."
+    },
+    "skills": {
+        "Programming Languages": [
+            "C#",
+            "C++",
+            "JavaScript",
+            "Python",
+            "TypeScript"
+        ],
+        "Software Technologies": [
+            "FastAPI",
+            "Nest.js",
+            "Next.js",
+            "REST APIs",
+            "Socket.io"
+        ],
+        "Database Technologies": [
+            "Chroma",
+            "MongoDB",
+            "ORMs",
+            "PostgreSQL",
+            "Qdrant"
+        ],
+        "AI & Machine Learning": [
+            "Agentic AI Systems",
+            "Deep Learning",
+            "Matplotlib",
+            "NumPy",
+            "Pandas",
+            "Scikit-learn",
+            "OpenAI",
+            "Gemini",
+            "LangChain",
+            "LangGraph"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Sleekhive Technologies",
+            "role": "Node.js AI Developer",
+            "type": "Full-time",
+            "location": "Karachi, Pakistan",
+            "dates": "07/2025 - Present",
+            "bullets": [
+                "Architect and deploy scalable backend services using Nest.js to power AI-driven automation workflows and LLM-based systems.",
+                "Design and implement end-to-end AI architectures integrating OpenAI and Google Gemini models into production applications.",
+                "Engineer Agentic AI automation systems using LangChain and LangGraph to orchestrate multi-step LLM reasoning workflows.",
+                "Develop secure REST APIs and backend logic to support frontend integration and AI feature delivery.",
+                "Deploy, monitor, and maintain production applications on cloud infrastructure, ensuring system reliability and performance."
+            ]
+        },
+        {
+            "company": "FastPace Dynamics",
+            "role": "Junior Solution Engineer",
+            "type": "Part-time",
+            "location": "Karachi, Pakistan",
+            "dates": "09/2024 - 06/2025",
+            "bullets": [
+                "Developed AI-powered recruitment automation systems to streamline candidate screening and hiring workflows.",
+                "Designed and implemented intelligent resume filtering pipelines leveraging LLMs for requirement-based candidate matching.",
+                "Built scalable backend services in Python to support AI-driven automation tools and recruiter dashboards."
+            ]
+        },
+        {
+            "company": "FastPace Dynamics",
+            "role": "Software Engineer Intern",
+            "type": "Internship",
+            "location": "Karachi, Pakistan",
+            "dates": "Dates not listed",
+            "bullets": [
+                "Built an Agentic AI chatbot to automate resume filtering based on dynamic recruiter-defined criteria.",
+                "Integrated OpenAI and Google Gemini models using LangChain to enable intelligent candidate analysis and evaluation.",
+                "Developed interactive Streamlit dashboards to enhance recruiter usability and decision-making efficiency."
+            ]
+        },
+        {
+            "company": "Mazik Global, a Quisitive Company",
+            "role": "AI and Copilot Developer Intern",
+            "type": "Internship",
+            "location": "Karachi, Pakistan",
+            "dates": "07/2023 - 08/2023",
+            "bullets": [
+                "Integrated GPT-3.5-Turbo into enterprise web applications.",
+                "Designed document-aware chatbot solutions using Azure OpenAI and custom RAG-style pipelines.",
+                "Developed backend integrations using Azure services to enable secure document ingestion and contextual AI responses.",
+                "Deployed AI applications on Microsoft Azure infrastructure."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Salim Habib University",
+            "degree": "Bachelor of Information Technology, in Computer Science",
+            "dates": "08/2021 - 06/2025",
+            "location": "Karachi, Pakistan",
+            "gpa": "3.96 CGPA",
+            "awards": "3 Vice Chancellor Awards and 5 Dean's Honor List Awards"
+        }
+    ],
+    "projects": [
+        {
+            "slug": "proassist",
+            "title": "ProAssist (Final Year Project)",
+            "subtitle": "Salim Habib University",
+            "dates": "09/2024 - 05/2025",
+            "category": "AI",
+            "tags": [
+                "FastAPI",
+                "LLM Integration",
+                "Python",
+                "Educational AI"
+            ],
+            "shortDescription": "Developed an AI-powered grading automation system for handwritten exams.",
+            "bullets": [
+                "Built custom AI agents using FastAPI and LLM integrations",
+                "Focused on automated grades and feedback generation and educational AI"
+            ],
+            "imageUrl": "/api/placeholder/800/600",
+            "liveUrl": "#",
+            "githubUrl": "#"
+        },
+        {
+            "slug": "ai-recruitment-manager",
+            "title": "AI Recruitment Manager",
+            "subtitle": "FastPace Dynamics",
+            "dates": "Unknown",
+            "category": "AI",
+            "tags": [
+                "Python",
+                "OpenAI",
+                "Gemini",
+                "LangChain",
+                "Streamlit"
+            ],
+            "shortDescription": "Built an Agentic AI system to automate end-to-end recruitment workflows including resume parsing and intelligent candidate matching.",
+            "bullets": [
+                "Implemented resume parsing, intelligent candidate matching, and AI-assisted evaluation",
+                "Tools: Python, OpenAI, Gemini, LangChain, Streamlit"
+            ],
+            "imageUrl": "/api/placeholder/800/600",
+            "liveUrl": "#",
+            "githubUrl": "#"
+        },
+        {
+            "slug": "personalized-healthcare-chatbot",
+            "title": "Personalized Healthcare Chatbot",
+            "subtitle": "Mazik Global",
+            "dates": "Unknown",
+            "category": "AI",
+            "tags": [
+                "Azure OpenAI",
+                "Azure SQL",
+                "Azure Web Apps",
+                "RAG"
+            ],
+            "shortDescription": "Integrated GPT-based conversational AI with healthcare documentation.",
+            "bullets": [
+                "Built custom document ingestion pipeline",
+                "Tools: Azure OpenAI, Azure SQL, Azure Web Apps"
+            ],
+            "imageUrl": "/api/placeholder/800/600",
+            "liveUrl": "#",
+            "githubUrl": "#"
+        },
+        {
+            "slug": "doodle-detection",
+            "title": "Doodle Detection using a Neural Network",
+            "subtitle": "Personal",
+            "dates": "Unknown",
+            "category": "Machine Learning",
+            "tags": [
+                "Python",
+                "NumPy",
+                "CuPy",
+                "Matplotlib",
+                "Deep Learning"
+            ],
+            "shortDescription": "Built a neural network from scratch in Python to classify hand-drawn sketches with GPU acceleration.",
+            "bullets": [
+                "Implemented GPU acceleration using CuPy",
+                "Languages & Tools: Python, NumPy, CuPy and Matplotlib"
+            ],
+            "imageUrl": "/api/placeholder/800/600",
+            "liveUrl": "#",
+            "githubUrl": "#"
+        },
+        {
+            "slug": "ai-wallpaper-generator",
+            "title": "AI Wallpaper Generator",
+            "subtitle": "Personal",
+            "dates": "Unknown",
+            "category": "Full Stack",
+            "tags": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "SDXL API"
+            ],
+            "shortDescription": "Built a web app generating AI-based abstract wallpapers integrating with SDXL.",
+            "bullets": [
+                "Integrated SDXL image generation API",
+                "Stack: Next.js, TypeScript, Tailwind CSS"
+            ],
+            "imageUrl": "/api/placeholder/800/600",
+            "liveUrl": "#",
+            "githubUrl": "#"
+        },
+        {
+            "slug": "diabetes-detection",
+            "title": "Diabetes Detection",
+            "subtitle": "Personal",
+            "dates": "Unknown",
+            "category": "Machine Learning",
+            "tags": [
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Scikit-learn"
+            ],
+            "shortDescription": "Comparative analysis across ML classifiers to select optimal diabetes prediction model.",
+            "bullets": [
+                "Implemented and evaluated models using Scikit-learn and custom codes",
+                "Tools: Python, Pandas, NumPy, Matplotlib"
+            ],
+            "imageUrl": "/api/placeholder/800/600",
+            "liveUrl": "#",
+            "githubUrl": "#"
+        }
+    ]
+}
