@@ -2,8 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProjects, getProjectBySlug } from "@/lib/data";
 import { Badge } from "@/components/ui/Badge";
-import { ArrowLeft, ExternalLink, Github } from "lucide-react";
-import { Button } from "@/components/ui/Button";
+import { ArrowLeft } from "lucide-react";
 
 interface CaseStudyProps {
     params: Promise<{ slug: string }>;
@@ -49,25 +48,7 @@ export default async function CaseStudyPage({ params }: CaseStudyProps) {
                         {project.subtitle} <span className="text-[var(--muted)]">&bull; {project.dates}</span>
                     </p>
                 </div>
-
-                <div className="flex flex-wrap gap-3 pt-4">
-                    <Button asChild size="sm">
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                            <ExternalLink size={14} className="mr-2" /> Live Demo
-                        </a>
-                    </Button>
-                    <Button asChild variant="outline" size="sm">
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                            <Github size={14} className="mr-2" /> View Source
-                        </a>
-                    </Button>
-                </div>
             </header>
-
-            {/* Gradient header instead of broken image */}
-            <div className="relative w-full aspect-video rounded-2xl overflow-hidden mb-16 border border-[var(--border)] bg-gradient-to-br from-primary/20 via-secondary/10 to-primary/5 flex items-center justify-center">
-                <span className="text-6xl font-bold text-primary/20 select-none">{project.title.charAt(0)}</span>
-            </div>
 
             <div className="space-y-8 text-[var(--muted)] leading-relaxed">
 
